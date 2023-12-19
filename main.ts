@@ -5,6 +5,9 @@ enum RadioMessage {
 input.onButtonPressed(Button.A, function () {
     radio.sendNumber(2)
 })
+input.onGesture(Gesture.Shake, function () {
+    radio.sendNumber(4)
+})
 input.onButtonPressed(Button.AB, function () {
     radio.sendNumber(1)
 })

@@ -2,11 +2,14 @@ enum RadioMessage {
     message1 = 49434,
     Sike = 10816
 }
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
+    radio.sendNumber(4)
+})
 input.onButtonPressed(Button.A, function () {
     radio.sendNumber(2)
 })
-input.onGesture(Gesture.Shake, function () {
-    radio.sendNumber(4)
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    radio.sendNumber(5)
 })
 input.onButtonPressed(Button.AB, function () {
     radio.sendNumber(1)
@@ -19,6 +22,6 @@ basic.showLeds(`
     . . # . .
     # # # # #
     # . # . #
-    . # # . .
+    . # # # .
     # # . # #
     `)

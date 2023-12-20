@@ -2,6 +2,6 @@
         . . # . . 
         # # # # # 
         # . # . # 
-        . # # . . 
+        . # # # . 
         # # . # #
-        `</field></block></next></block></statement></block><block type="device_gesture_event" id="3Wee#75Z22C3M+jmIM.w" x="58" y="427"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="radio_datagram_send" id="=*;[Rxg?;.4QpSgRF*d`"><value name="value"><shadow type="math_number" id="hYdq}IkEr}AkwtLrDfo$"><field name="NUM">4</field></shadow></value></block></statement></block></xml>
+        `</field></block></next></block></statement></block><block type="input_logo_event" id="M7I7)cU#mA;q^$386X7a" x="64" y="332"><field name="action">TouchButtonEvent.Touched</field><statement name="HANDLER"><block type="radio_datagram_send" id="oQd6QLIB,cT#gsXB5c.;"><value name="value"><shadow type="math_number" id="f,apq/,0/6q4mXR|$3#i"><field name="NUM">4</field></shadow></value></block></statement></block><block type="input_logo_event" id="|1olnmdN?P)bfB/cO5%]" x="138" y="503"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="radio_datagram_send" id="CjP9$,c0lJzLI%pe-F5k"><value name="value"><shadow type="math_number" id=":/lTOiKg;2s]V%{dTF|!"><field name="NUM">5</field></shadow></value></block></statement></block></xml>
